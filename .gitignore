@@ -1,8 +1,5 @@
 .idea
 .vscode
 development/staging.env
-doc/.DS_Store
 .DS_Store
 .scannerwork
-4pl-trigger-external
-development/zk-single-kafka-single
