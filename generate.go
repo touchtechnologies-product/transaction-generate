@@ -10,10 +10,12 @@ func lenZeroLastId(len int) string {
 	var zeroString string
 	switch len {
 	case 1:
-		zeroString = "000"
+		zeroString = "0000"
 	case 2:
-		zeroString = "00"
+		zeroString = "000"
 	case 3:
+		zeroString = "00"
+	case 4:
 		zeroString = "0"
 	default:
 		zeroString = ""
